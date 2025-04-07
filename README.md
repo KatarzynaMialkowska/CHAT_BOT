@@ -21,4 +21,3 @@ This project is a Rasa-powered assistant integrated with Discord. It helps users
 ## License
 
 This project is for educational or internal use. Some dependencies are licensed under Apache 2.0 or other open-source licenses (see `LICENSE.txt`).
-```
