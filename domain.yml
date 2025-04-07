@@ -1,0 +1,58 @@
+version: "3.1"
+
+intents:
+  - list_open_competitions
+  - request_team_players
+  - request_all_teams
+  - add_player_to_team
+  - show_all
+
+actions:
+  - action_list_open_competitions
+  - action_list_teams_and_players
+  - action_list_all_teams
+  - action_add_player_to_team
+  - action_show_all_json
+
+entities:
+  - team
+  - competition
+  - match
+  - player_name
+
+slots:
+  player_name:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: player_name
+
+  team:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: team
+
+  competition:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: competition
+
+  match:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: match
+
+responses:
+  utter_ask_for_specific_info:
+    - text: "Specify what information you want to see or type 'show all' to see all data."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

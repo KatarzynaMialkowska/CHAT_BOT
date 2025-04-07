@@ -1,0 +1,50 @@
+version: "3.1"
+
+nlu:
+- intent: list_open_competitions
+  examples: |
+    - Show me open competitions
+    - What tournaments are open?
+    - List all open tournaments
+
+- intent: request_team_players
+  examples: |
+    - Show players from team [Fire](team) from competition [CS:GO](competition)
+    - Who is playing for [Water](team) in [CS:GO](competition)?
+    - List all players from [Air](team) in [LOL](competition)
+
+- intent: request_all_teams
+  examples: |
+    - Show all teams from competition [CS:GO](competition)
+    - List every team in [LOL](competition)
+    - Who is playing in [CS:GO](competition)?
+
+- intent: add_player_to_team
+  examples: |
+    - add player [John Doe](player_name) to team [Fire](team) in competition [CS:GO](competition) in [all](match) matches
+    - add player [Jane Smith](player_name) to team [Water](team) in competition [LOL](competition) in match [match1](match)
+    - add player [asd](player_name) to team [Air](team) in competition [LOL](competition) [all](match)
+    - add player [Bob Brown](player_name) to team [Water](team) in competition [LOL](competition) in match [match2](match)
+    - add player [sadaa Doe](player_name) to team [Fire](team) in competition [CS:GO](competition) in [all](match)
+    - add player [Yasuo](player_name) to team [Water](team) in competition [LOL](competition) in match [match1](match)
+    - add player [aaaa](player_name) to team [Air](team) in competition [LOL](competition) [all](match)
+    - add player [Bob Brown](player_name) to team [Water](team) in competition [LOL](competition) in match [match2](match)
+    - add player [bbb Doe](player_name) to team [Fire](team) in competition [CS:GO](competition) in [all](match) matches
+    - add player [Jane Smith](player_name) to team [Water](team) in competition [LOL](competition) in match [match1](match)
+    - add player [Yoo](player_name) to team [Air](team) in competition [LOL](competition) [all](match)
+    - add player [Ola troma](player_name) to team [Water](team) in competition [LOL](competition) in match [match2](match)
+    - add player [John Doe](player_name) to team [Fire](team) in competition [CS:GO](competition) in all [matches](match)
+    - add player [Jane Smith](player_name) to team [Water](team) in competition [LOL](competition) in match [match1](match)
+    - add player [Johnson](player_name) to team [Air](team) in competition [LOL](competition) [all](match)
+    - add player [Vaa Uiii](player_name) to team [Water](team) in competition [LOL](competition) in match [match2](match)
+
+- intent: show_all
+  examples: |
+    - show all
+    - show all information
+
+entities:
+  - team
+  - competition
+  - match
+  - player_name

@@ -1,0 +1,155 @@
+{
+    "competitions": [
+        {
+            "name": "CS:GO",
+            "date": "2024-12-05",
+            "status": "open",
+            "matches": [
+                {
+                    "id": "match1",
+                    "teams": [
+                        {
+                            "name": "Fire",
+                            "players": [
+                                {
+                                    "id": 1,
+                                    "name": "Zuko"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Ula Seniora"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Rumba Tree"
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Yooo"
+                                },
+                                {
+                                    "id": 5,
+                                    "name": "John Doe"
+                                }
+                            ],
+                            "max_players": 5
+                        },
+                        {
+                            "name": "Water",
+                            "players": [
+                                {
+                                    "id": 1,
+                                    "name": "Jak Sparrow"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Julia Row"
+                                }
+                            ],
+                            "max_players": 5
+                        }
+                    ],
+                    "start_time": "14:00",
+                    "end_time": "18:00"
+                },
+                {
+                    "id": "match2",
+                    "teams": [
+                        {
+                            "name": "Fire",
+                            "players": [
+                                {
+                                    "id": 1,
+                                    "name": "Zuko"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Ula Seniora"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Yooo"
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "John Doe"
+                                },
+                                {
+                                    "id": 5,
+                                    "name": "Yoooo"
+                                }
+                            ],
+                            "max_players": 5
+                        },
+                        {
+                            "name": "Air",
+                            "players": [
+                                {
+                                    "id": 1,
+                                    "name": "Ang Rum"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Smth Snot"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Bua Bam"
+                                }
+                            ],
+                            "max_players": 5
+                        }
+                    ],
+                    "start_time": "18:00",
+                    "end_time": "22:00"
+                }
+            ]
+        },
+        {
+            "name": "LOL",
+            "date": "2024-06-15",
+            "status": "closed",
+            "matches": [
+                {
+                    "id": "match1",
+                    "teams": [
+                        {
+                            "name": "Fire",
+                            "players": [
+                                {
+                                    "id": 1,
+                                    "name": "Zuko"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Ula Seniora"
+                                }
+                            ],
+                            "max_players": 5
+                        },
+                        {
+                            "name": "Air",
+                            "players": [
+                                {
+                                    "id": 1,
+                                    "name": "Ang Rum"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Smth Snot"
+                                }
+                            ],
+                            "max_players": 5
+                        }
+                    ],
+                    "score": [
+                        "1",
+                        "1"
+                    ],
+                    "start_time": "10:00",
+                    "end_time": "15:00"
+                }
+            ]
+        }
+    ]
+}

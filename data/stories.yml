@@ -1,0 +1,28 @@
+version: "3.1"
+
+stories:
+- story: list open competitions
+  steps:
+  - intent: list_open_competitions
+  - action: action_list_open_competitions
+
+- story: list team players from competition
+  steps:
+  - intent: request_team_players
+  - action: action_list_teams_and_players
+
+- story: list all teams in a competition
+  steps:
+  - intent: request_all_teams
+  - action: action_list_all_teams
+
+- story: add player to a team in competition
+  steps:
+  - intent: add_player_to_team
+  - action: action_add_player_to_team
+
+- story: show all data
+  steps:
+  - intent: show_all
+  - action: action_show_all_json
+
